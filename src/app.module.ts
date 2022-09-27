@@ -15,7 +15,7 @@ import { MailerModule } from '@nestjs-modules/mailer';
         port: 587,
         secure: false,
         tls: {
-          ciphers: 'SLLv3',
+          ciphers: 'SSLv3',
         },
         auth: {
           user: 'AKIAXGJ32B6VB2DEXV5S',
